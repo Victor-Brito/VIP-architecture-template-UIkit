@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MyScene</string>
+	<key>Description</key>
+	<string>This generates new Unit Tests for a scene.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>Scene Name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___ViewControllerTests</string>
+			<key>Description</key>
+			<string>The ViewController Unit Tests name</string>
+			<key>Identifier</key>
+			<string>viewControllerUnitTestsName</string>
+			<key>Name</key>
+			<string>ViewController Unit Tests Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___InteractorTests</string>
+			<key>Description</key>
+			<string>The Interactor Unit Tests name</string>
+			<key>Identifier</key>
+			<string>interactorUnitTestsName</string>
+			<key>Name</key>
+			<string>Interactor Unit Tests Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___PresenterTests</string>
+			<key>Description</key>
+			<string>The Presenter Unit Tests name</string>
+			<key>Identifier</key>
+			<string>presenterUnitTestsName</string>
+			<key>Name</key>
+			<string>Presenter Unit Tests Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___RouterTests</string>
+			<key>Description</key>
+			<string>The Router Unit Tests name</string>
+			<key>Identifier</key>
+			<string>routerUnitTestsName</string>
+			<key>Name</key>
+			<string>Router Unit Tests Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>6</string>
+	<key>Summary</key>
+	<string>This template generates Unit Tests for the Clean Architecture.</string>
+</dict>
+</plist>
