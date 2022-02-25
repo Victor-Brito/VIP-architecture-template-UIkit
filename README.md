@@ -38,6 +38,7 @@ user@MacBook-10 Templates % git clone [Repository]
 ## Installation with finder
 
 - Using shift+command+g it is possible to access directories through the finder
+
 ![WhatsApp Image 2022-02-25 at 19 42 53](https://user-images.githubusercontent.com/61737341/155813947-12975015-99e1-43ff-b65a-0dd4c1c71022.jpeg)
 
 - This will allow you to access the xcode folders through the finder
